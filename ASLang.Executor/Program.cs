@@ -1,12 +1,16 @@
 ﻿using System;
+using System.IO;
 
 namespace ASLang.Executor
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var startFilePath = args[0];
+            var fileContent = File.ReadAllText(startFilePath);
+            new CodeExecutor()
+                .Execute(fileContent);
         }
     }
 }
