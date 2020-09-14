@@ -1,5 +1,5 @@
 # Alpes Suínos Lang
-Linguagem de programação criada a partir da metalinguagem utilizado por membros de um time de desenvolvimento
+Linguagem de programação criada a partir da metalinguagem utilizada por membros de um time de desenvolvimento
 
 # Extensão de arquivo utilizado:
 .asl
